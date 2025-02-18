@@ -5,7 +5,7 @@ import type { InternalAxiosRequestConfig, AxiosError } from "axios";
 import { tokenService } from "./tokenService";
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api/'
+    baseURL: import.meta.env.BASE_URL
 })
 
 
