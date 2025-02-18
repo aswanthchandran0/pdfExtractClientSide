@@ -6,7 +6,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 import { processPdfApi } from '../../../service/user/api';
 
 // Configure PDF.js worker (CDN version)
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 const PdfUpload = () => {
   const [pdfFile, setPdfFile] = useState<File | null>(null);
