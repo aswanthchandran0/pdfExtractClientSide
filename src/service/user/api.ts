@@ -5,8 +5,8 @@ import type { InternalAxiosRequestConfig, AxiosError } from "axios";
 import { tokenService } from "./tokenService";
 
 const API = axios.create({
-  // baseURL: 'pdfextractserver-production.up.railway.app/api/'
-  baseURL: 'http://localhost:5000/api/'
+  baseURL: 'pdfextractserver-production.up.railway.app/api/'
+  // baseURL: 'http://localhost:5000/api/'
 })
 
 
