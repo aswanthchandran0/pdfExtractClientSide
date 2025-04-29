@@ -29,6 +29,7 @@ const PrimaryButton:React.FC<Props> = ({text ='Button',Icon,action,size = 'md',c
 
     return (
        <button
+       
        onClick={action}
        className={clsx("flex gap-x-6 rounded-xl px-8 text-sm font-semibold shadow-sm py-4 text-white  focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-200 items-center bg-indigo-600 focus-visible:outline hover:bg-indigo-500",
         className

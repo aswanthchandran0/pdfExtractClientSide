@@ -7,6 +7,9 @@ import PdfUpload from "../components/user/pdfupload/PdfUpload"
 
 const HomePage = ()=>{
 
+  
+
+  
   // scroll to bottom 
   const scrollToBottom = ()=>{
     window.scrollTo(
@@ -33,7 +36,7 @@ const HomePage = ()=>{
             Extract specific pages from your PDF documents instantly. No installation needed, Just upload and extract.
             </p>
             <div className="flex justify-center mx-auto mt-6">
-                <PrimaryButton action={scrollToBottom} Icon={ArrowRight}  size="md" text="Get Started"/>
+                <PrimaryButton  action={scrollToBottom} Icon={ArrowRight}  size="md" text="Get Started"/>
             </div>
           </div>
          </div>
